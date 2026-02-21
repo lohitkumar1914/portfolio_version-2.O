@@ -77,7 +77,7 @@ export function Hero() {
         {/* CTAs */}
         <div className="flex items-center gap-3">
           <a
-            href="/resume.pdf"
+            href="/lohit_resume.pdf"
             className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1A1A24] border border-[#1F1F2A] text-white text-sm hover:border-[#f17463]/30 transition-all"
           >
             <FileText className="h-3.5 w-3.5" />
