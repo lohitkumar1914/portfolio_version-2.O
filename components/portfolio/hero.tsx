@@ -18,7 +18,7 @@ export function Hero() {
         <div className="flex items-center gap-4 mb-6">
           <div className="relative w-14 h-14 rounded-full overflow-hidden border border-[#1F1F2A] shrink-0">
             <Image
-              src="/images/Me.jpeg"
+              src="/images/ME.jpeg"
               alt="Lohit Kumar"
               fill
               className="object-cover"

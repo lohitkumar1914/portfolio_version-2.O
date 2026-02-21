@@ -124,7 +124,7 @@ export function About() {
               {/* Photo */}
               <div className="relative w-full aspect-[3/4] max-w-[220px] rounded-2xl overflow-hidden border-2 border-[#1F1F2A]">
                 <Image
-                  src="/images/Me.jpeg"
+                  src="/images/ME.jpeg"
                   alt="Lohit Kumar"
                   fill
                   className="object-cover"
