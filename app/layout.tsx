@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 import { Navbar } from '@/components/portfolio/navbar';
 
@@ -46,6 +47,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="89fca474-1455-405a-92a5-5a79db47ac11"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="font-sans antialiased noise-bg">
         <Navbar />
         {children}
