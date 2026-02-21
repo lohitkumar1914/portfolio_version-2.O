@@ -22,7 +22,7 @@ export function GitHubActivity({ stats }: GitHubActivityProps) {
       <div className="mx-auto max-w-5xl px-6">
         {/* Section label */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs font-mono text-[#7C3AED] uppercase tracking-widest">
+          <span className="text-xs font-mono text-[#f17463] uppercase tracking-widest">
             Open Source
           </span>
           <div className="h-px flex-1 bg-[#1F1F2A]" />
@@ -50,7 +50,7 @@ export function GitHubActivity({ stats }: GitHubActivityProps) {
               key={stat.label}
               className="rounded-xl bg-[#111118] border border-[#1F1F2A] p-4 md:p-6 text-center"
             >
-              <stat.icon className="h-5 w-5 text-[#7C3AED] mx-auto mb-2" />
+              <stat.icon className="h-5 w-5 text-[#f17463] mx-auto mb-2" />
               <p className="text-xl md:text-2xl font-bold text-white font-mono">
                 {stat.value}
               </p>

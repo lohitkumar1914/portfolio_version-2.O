@@ -17,18 +17,18 @@ import { getGitHubStats } from "@/lib/github";
 export default async function Home() {
   const projects = getSortedPostsData('projects');
   const blogs = getSortedPostsData('blogs');
-  const githubStats = await getGitHubStats('lohitkumar1914');
+  const githubStats = await getGitHubStats(process.env.GITHUB_USERNAME || '');
 
   return (
     <div className="relative min-h-screen bg-[#0B0B0F]">
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
         <Hero />
-        <Experience />
+        {/* <Experience /> */}
         <Projects projects={projects} />
         <About />
-        <GitHubActivity stats={githubStats} />
         <Blog posts={blogs} />
+        <GitHubActivity stats={githubStats} />
         <Contact />
         {/* <Setup />
         <Quote /> */}

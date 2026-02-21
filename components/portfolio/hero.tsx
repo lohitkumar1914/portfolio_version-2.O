@@ -18,7 +18,7 @@ export function Hero() {
         <div className="flex items-center gap-4 mb-6">
           <div className="relative w-14 h-14 rounded-full overflow-hidden border border-[#1F1F2A] shrink-0">
             <Image
-              src="/images/avatar.jpg"
+              src="/images/Me.jpeg"
               alt="Lohit Kumar"
               fill
               className="object-cover"
@@ -37,7 +37,7 @@ export function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={s.label}
-                className="w-8 h-8 rounded-md bg-[#1A1A24] border border-[#1F1F2A] flex items-center justify-center text-[#71717A] hover:text-white hover:border-[#7C3AED]/30 transition-all"
+                className="w-8 h-8 rounded-md bg-[#1A1A24] border border-[#1F1F2A] flex items-center justify-center text-[#71717A] hover:text-white hover:border-[#f17463]/30 transition-all"
               >
                 <s.icon className="h-3.5 w-3.5" />
               </a>
@@ -47,7 +47,7 @@ export function Hero() {
 
         {/* Headline */}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-[1.15] mb-4 text-balance">
-          {"Hi, I'm Lohit"} <span className="text-[#7C3AED]">&mdash;</span>{" "}
+          {"Hi, I'm Lohit"} <span className="text-[#f17463]">&mdash;</span>{" "}
           <span className="text-[#71717A]">A Full Stack web developer.</span>
         </h1>
 
@@ -78,14 +78,14 @@ export function Hero() {
         <div className="flex items-center gap-3">
           <a
             href="/resume.pdf"
-            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1A1A24] border border-[#1F1F2A] text-white text-sm hover:border-[#7C3AED]/30 transition-all"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1A1A24] border border-[#1F1F2A] text-white text-sm hover:border-[#f17463]/30 transition-all"
           >
             <FileText className="h-3.5 w-3.5" />
             Resume / CV
           </a>
           <a
             href="#contact"
-            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#7C3AED] text-white text-sm hover:bg-[#6D28D9] transition-colors"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#ffffff] text-black text-sm hover:bg-[#e05a4a] transition-colors"
           >
             Get in Touch
           </a>

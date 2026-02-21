@@ -18,7 +18,7 @@ export function Blog({ posts }: BlogProps) {
       <div className="mx-auto max-w-5xl px-6">
         {/* Section label */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs font-mono text-[#7C3AED] uppercase tracking-widest">
+          <span className="text-xs font-mono text-[#f17463] uppercase tracking-widest">
             Writing
           </span>
           <div className="h-px flex-1 bg-[#1F1F2A]" />
@@ -55,7 +55,7 @@ export function Blog({ posts }: BlogProps) {
 
               {/* Content */}
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#7C3AED] transition-colors">
+                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-[#f17463] transition-colors">
                   {post.title}
                 </h3>
 
@@ -81,7 +81,7 @@ export function Blog({ posts }: BlogProps) {
                     <Calendar className="h-3 w-3" />
                     {post.date}
                   </span>
-                  <span className="flex items-center gap-1 text-sm text-[#7C3AED] opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span className="flex items-center gap-1 text-sm text-[#f17463] opacity-0 group-hover:opacity-100 transition-opacity">
                     Read More
                     <ArrowRight className="h-4 w-4" />
                   </span>
@@ -95,7 +95,7 @@ export function Blog({ posts }: BlogProps) {
         <div className="flex justify-center mt-10">
           <Link
             href="/blogs"
-            className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-[#111118] border border-[#1F1F2A] text-sm text-[#A1A1AA] font-medium hover:text-white hover:border-[#7C3AED]/30 transition-all"
+            className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-[#111118] border border-[#1F1F2A] text-sm text-[#A1A1AA] font-medium hover:text-white hover:border-[#f17463]/30 transition-all"
           >
             Show all blogs
             <ArrowRight className="h-4 w-4" />

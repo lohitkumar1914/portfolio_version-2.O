@@ -21,7 +21,7 @@ export function Projects({ projects }: ProjectsProps) {
       <div className="mx-auto max-w-5xl px-6">
         {/* Section label */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs font-mono text-[#7C3AED] uppercase tracking-widest">
+          <span className="text-xs font-mono text-[#f17463] uppercase tracking-widest">
             Featured
           </span>
           <div className="h-px flex-1 bg-[#1F1F2A]" />
@@ -36,7 +36,7 @@ export function Projects({ projects }: ProjectsProps) {
           {displayed.map((project, i) => (
             <div
               key={project.id}
-              className="group rounded-2xl bg-[#111118] border border-[#1F1F2A] overflow-hidden card-glow flex flex-col"
+              className="group rounded-2xl bg-[#111118] border border-[#1F1F2A] overflow-hidden  flex flex-col"
             >
               {/* Project image */}
               <div className="relative h-48 overflow-hidden bg-muted">
@@ -103,7 +103,8 @@ export function Projects({ projects }: ProjectsProps) {
                       href={project.github_link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-sm text-[#7C3AED] hover:text-[#A78BFA] transition-colors"
+
+                      className="flex items-center gap-CC1.5 text-sm text-[#ffffff] hover:text-[#f49385] transition-colors"
                     >
                       <Github className="h-4 w-4" />
                       Source Code
@@ -111,7 +112,7 @@ export function Projects({ projects }: ProjectsProps) {
                   )}
                   <Link
                     href={`/projects/${project.id}`}
-                    className="flex items-center gap-1.5 text-sm text-[#A1A1AA] hover:text-white transition-colors ml-auto"
+                    className="flex items-center gap-1.5 text-sm text-[#A1A1AA] hover:text-white hover:underline transition-colors  ml-auto"
                   >
                     View Details
                     <ChevronRight className="h-4 w-4" />
@@ -127,7 +128,7 @@ export function Projects({ projects }: ProjectsProps) {
           <div className="flex justify-center mt-10">
             <Link href="/projects">
               <button
-                className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-[#111118] border border-[#1F1F2A] text-sm text-[#A1A1AA] font-medium hover:text-white hover:border-[#7C3AED]/30 transition-all"
+                className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-[#111118] border border-[#1F1F2A] text-sm text-[#A1A1AA] font-medium hover:text-white hover:border-[#f17463]/30 transition-all"
               >
                 View all projects
                 <ExternalLink className="h-4 w-4" />

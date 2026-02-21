@@ -52,7 +52,7 @@ export function Setup() {
         {/* Setup */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-xs font-mono text-[#7C3AED] uppercase tracking-widest">
+            <span className="text-xs font-mono text-[#f17463] uppercase tracking-widest">
               Developer
             </span>
             <div className="h-px flex-1 bg-[#1F1F2A]" />
@@ -67,10 +67,10 @@ export function Setup() {
               <a
                 key={i}
                 href={item.href || "#"}
-                className="group flex items-center gap-4 rounded-xl bg-[#111118] border border-[#1F1F2A] p-4 hover:border-[#7C3AED]/30 transition-all"
+                className="group flex items-center gap-4 rounded-xl bg-[#111118] border border-[#1F1F2A] p-4 hover:border-[#f17463]/30 transition-all"
               >
                 <div className="w-10 h-10 rounded-lg bg-[#1A1A24] border border-[#1F1F2A] flex items-center justify-center flex-shrink-0">
-                  <item.icon className="h-4 w-4 text-[#7C3AED]" />
+                  <item.icon className="h-4 w-4 text-[#f17463]" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h4 className="text-sm font-medium text-white">
@@ -123,6 +123,6 @@ export function Setup() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

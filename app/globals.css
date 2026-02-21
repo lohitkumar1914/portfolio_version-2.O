@@ -10,7 +10,7 @@
   --card-foreground: #E4E4E7;
   --popover: #111118;
   --popover-foreground: #E4E4E7;
-  --primary: #7C3AED;
+  --primary: #f17463;
   --primary-foreground: #FFFFFF;
   --secondary: #1A1A24;
   --secondary-foreground: #E4E4E7;
@@ -52,7 +52,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --color-violet: #7C3AED;
+  --color-violet: #f17463;
   --color-cyan: #06B6D4;
   --color-surface: #111118;
   --color-surface-hover: #1A1A24;
@@ -94,7 +94,7 @@ html {
 
 /* Glow effects */
 .glow-violet {
-  box-shadow: 0 0 20px rgba(124, 58, 237, 0.15), 0 0 40px rgba(124, 58, 237, 0.05);
+  box-shadow: 0 0 20px rgba(241, 116, 99, 0.15), 0 0 40px rgba(241, 116, 99, 0.05);
 }
 
 .glow-cyan {
@@ -102,7 +102,7 @@ html {
 }
 
 .glow-violet-strong {
-  box-shadow: 0 0 30px rgba(124, 58, 237, 0.3), 0 0 60px rgba(124, 58, 237, 0.1);
+  box-shadow: 0 0 30px rgba(241, 116, 99, 0.3), 0 0 60px rgba(241, 116, 99, 0.1);
 }
 
 /* Card hover glow */
@@ -111,8 +111,8 @@ html {
 }
 
 .card-glow:hover {
-  box-shadow: 0 0 30px rgba(124, 58, 237, 0.12), 0 0 60px rgba(124, 58, 237, 0.04);
-  border-color: rgba(124, 58, 237, 0.3);
+  box-shadow: 0 0 30px rgba(241, 116, 99, 0.12), 0 0 60px rgba(241, 116, 99, 0.04);
+  border-color: rgba(241, 116, 99, 0.3);
   transform: translateY(-2px);
 }
 
@@ -189,7 +189,10 @@ html {
 }
 
 /* Typography styles */
-.prose h1, .prose h2, .prose h3, .prose h4 {
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
   color: var(--foreground);
   font-weight: 700;
   margin-top: 2em;
@@ -222,7 +225,8 @@ html {
   font-weight: 600;
 }
 
-.prose ul, .prose ol {
+.prose ul,
+.prose ol {
   color: #A1A1AA;
   margin-bottom: 1.25em;
   padding-left: 1.5em;
@@ -233,11 +237,11 @@ html {
 }
 
 /* Custom list bullet styling */
-.prose ul > li {
+.prose ul>li {
   list-style-type: disc;
 }
 
-.prose ol > li {
+.prose ol>li {
   list-style-type: decimal;
 }
 
@@ -285,7 +289,7 @@ html {
 }
 
 .prose hr {
-    border-color: var(--border);
-    margin-top: 3em;
-    margin-bottom: 3em;
+  border-color: var(--border);
+  margin-top: 3em;
+  margin-bottom: 3em;
 }

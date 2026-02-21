@@ -12,7 +12,7 @@ export default function ProjectsPage() {
     return (
         <div className="container mx-auto px-4 py-12 md:py-24">
             <div className="max-w-4xl mx-auto text-center mb-16">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#f17463] to-[#f49385]">
                     My Projects
                 </h1>
                 <p className="text-xl text-muted-foreground">
