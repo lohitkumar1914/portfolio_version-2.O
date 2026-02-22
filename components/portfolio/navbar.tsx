@@ -8,7 +8,6 @@ const navLinks = [
   { label: "Projects", href: "/#projects" },
   { label: "About", href: "/#about" },
   { label: "Blog", href: "/#blog" },
-  { label: "Contact", href: "/#contact" },
 ];
 
 export function Navbar() {
@@ -43,7 +42,7 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-[#71717A] hover:text-white text-sm transition-colors duration-200"
+              className="text-[#71717A] hover:text-white text-sm transition-colors duration-200 hover:underline hover:underline-offset-4"
             >
               {link.label}
             </a>

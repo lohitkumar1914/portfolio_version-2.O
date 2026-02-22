@@ -1,7 +1,7 @@
 ---
 title: "Sekhar Albums Management"
 description: "A comprehensive studio and album project management system tailored for albums designing businesses."
-category: "Management"
+category: "Full Stack"
 tech_stack: ["React", "Vite", "Supabase", "Tailwind CSS", "Recharts"]
 features: ["Project Lifecycle Tracking", "Studio Analytics", "Financial Management", "Invoice Generation", "Role-Based Access Control"]
 github_link: "https://github.com/sekhar-narava/Sekharalbums_management"
