@@ -36,12 +36,12 @@ const softSkills = [
 ];
 
 const experiences = [
-  { year: "2024 - Present", role: "System Engineer", company: "Infosys" }
+  { year: "2025 - Present", role: "System Engineer", company: "Infosys" }
 
 ];
 
 const education = {
-  years: "20201- 2025",
+  years: "2021- 2025",
   university: "Anil Neerukonda Institute Of Technology & Sciences",
   degree: "B.Tech in Electronic and Communication Engineering",
 };
